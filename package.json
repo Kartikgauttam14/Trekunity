@@ -25,6 +25,10 @@
     "install:all": "npm install",
     "postinstall": "npm run build:backend"
   },
+  "dependencies": {
+    "@prisma/client": "5.22.0",
+    "prisma": "5.22.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.2"
   }
