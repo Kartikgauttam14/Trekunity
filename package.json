@@ -23,6 +23,8 @@
     "build:android:apk": "npm run build:android:apk --workspace=apps/mobile",
     "build:desktop:exe": "npm run build:frontend && npm run build --workspace=desktop",
     "install:all": "npm install",
+    "test": "vitest run",
+    "lint": "npm run lint --workspace=frontend",
     "postinstall": "npm run build:backend"
   },
   "dependencies": {
