@@ -19,8 +19,8 @@ export default function Navbar() {
 
     const isActive = (path) => location.pathname === path;
     const downloads = [
-        { label: 'Android App', meta: 'APK for phones', href: '/downloads/Trekunity-Android.apk' },
-        { label: 'Computer Software', meta: 'Windows .exe setup', href: '/downloads/Trekunity-Windows-Setup.exe' },
+        { label: 'Android App', meta: 'APK for phones', href: '/downloads/PackAndSync-Android.apk' },
+        { label: 'Computer Software', meta: 'Windows .exe setup', href: '/downloads/PackAndSync-Windows-Setup.exe' },
     ];
 
     useEffect(() => {
@@ -33,7 +33,7 @@ export default function Navbar() {
                 {/* Logo */}
                 <Link to="/" className="navbar-logo">
                     <span className="logo-icon">🚗</span>
-                    <span className="gradient-text font-display">Trekunity</span>
+                    <span className="gradient-text font-display">PackAndSync</span>
                 </Link>
 
                 {/* Desktop Nav */}

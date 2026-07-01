@@ -262,7 +262,7 @@ export default function App() {
       <StatusBar style="light" />
       <View style={styles.header}>
         <View>
-          <Text style={styles.logo}>Trekunity</Text>
+          <Text style={styles.logo}>PackAndSync</Text>
           <Text style={styles.headerSub}>Travel app</Text>
         </View>
         <Pill>Mobile</Pill>

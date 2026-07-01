@@ -14,9 +14,9 @@ const PrivacyPolicy = () => {
                     <section className="privacy-section">
                         <h2>1. Introduction</h2>
                         <p>
-                            Welcome to <strong>Trekunity</strong>. We are committed to protecting your personal information and your right to privacy.
+                            Welcome to <strong>PackAndSync</strong>. We are committed to protecting your personal information and your right to privacy.
                             If you have any questions or concerns about this privacy notice, or our practices with regards to your personal information,
-                            please contact us at privacy@trekunity.com.
+                            please contact us at privacy@packandsync.com.
                         </p>
                     </section>
 
@@ -75,10 +75,10 @@ const PrivacyPolicy = () => {
                     <section className="privacy-section">
                         <h2>7. Contact Us</h2>
                         <p>
-                            If you have questions or comments about this notice, you may email us at <strong>privacy@trekunity.com</strong> or by post to:
+                            If you have questions or comments about this notice, you may email us at <strong>privacy@packandsync.com</strong> or by post to:
                         </p>
                         <address className="contact-address">
-                            Trekunity Inc.<br />
+                            PackAndSync Inc.<br />
                             190, Gauttam Bahawan<br />
                             Rattakhera, Safidon, Jind<br />
                             Haryana, India - 126112

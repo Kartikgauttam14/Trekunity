@@ -56,7 +56,7 @@ export default function HomePage() {
                         </div>
                     </div>
 
-                    <div className="hero-stats" aria-label="Trekunity planning highlights">
+                    <div className="hero-stats" aria-label="PackAndSync planning highlights">
                         {HERO_STATS.map((s) => (
                             <div key={s.label} className="hero-stat">
                                 <span className="hero-stat-value gradient-text">{s.value}</span>
@@ -88,7 +88,7 @@ export default function HomePage() {
             <section className="cta-section">
                 <div className="container cta-inner">
                     <h2>Ready to start your next adventure?</h2>
-                    <p>Join thousands of travelers who plan smarter with Trekunity.</p>
+                    <p>Join thousands of travelers who plan smarter with PackAndSync.</p>
                     <Link to={user ? '/trips/create' : '/register'} className="btn btn-primary btn-lg">
                         {user ? 'Create a Trip' : 'Join for Free'}
                     </Link>

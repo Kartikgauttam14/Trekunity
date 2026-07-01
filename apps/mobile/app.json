@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Trekunity",
-    "slug": "trekunity",
+    "name": "PackAndSync",
+    "slug": "packandsync",
     "version": "1.0.0",
     "orientation": "portrait",
-    "scheme": "trekunity",
+    "scheme": "packandsync",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
     "splash": {
@@ -12,7 +12,7 @@
     },
     "assetBundlePatterns": ["**/*"],
     "android": {
-      "package": "com.trekunity.app",
+      "package": "com.packandsync.app",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",

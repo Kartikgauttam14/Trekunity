@@ -98,7 +98,7 @@ export default function HostDashboard() {
                 <div className="main-header">
                     <div>
                         <h2>Host Dashboard</h2>
-                        <p>List your vehicles and accept self-drive rental requests inside Trekunity.</p>
+                        <p>List your vehicles and accept self-drive rental requests inside PackAndSync.</p>
                     </div>
                     <button className="add-v-btn" onClick={() => setShowAddForm(true)}>+ Add Vehicle</button>
                 </div>

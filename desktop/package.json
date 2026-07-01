@@ -1,5 +1,5 @@
 {
-  "name": "trekunity-desktop",
+  "name": "packandsync-desktop",
   "version": "1.0.0",
   "private": true,
   "license": "UNLICENSED",
@@ -16,8 +16,8 @@
     "electron-builder": "^24.13.3"
   },
   "build": {
-    "appId": "com.trekunity.desktop",
-    "productName": "Trekunity",
+    "appId": "com.packandsync.desktop",
+    "productName": "PackAndSync",
     "npmRebuild": false,
     "directories": {
       "output": "release"

@@ -8,7 +8,7 @@ const Footer = () => {
             <div className="container">
                 <div className="footer-grid">
                     <div className="footer-brand">
-                        <Link to="/" className="brand-link font-display">Trekunity</Link>
+                        <Link to="/" className="brand-link font-display">PackAndSync</Link>
                         <p>The all-in-one platform for planning, splitting expenses, and enjoying group travel.</p>
                     </div>
 
@@ -25,7 +25,7 @@ const Footer = () => {
                         <h4>Company</h4>
                         <ul>
                             <li><Link to="/privacy-policy">Privacy Policy</Link></li>
-                            <li><a href="mailto:hello@trekunity.com">Contact Us</a></li>
+                            <li><a href="mailto:hello@packandsync.com">Contact Us</a></li>
                         </ul>
                     </div>
 
@@ -40,7 +40,7 @@ const Footer = () => {
                 </div>
 
                 <div className="footer-bottom">
-                    <p>&copy; {new Date().getFullYear()} Trekunity Inc. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} PackAndSync Inc. All rights reserved.</p>
                     <div className="social-links">
                         {/* Placeholder icons or text links */}
                         <a href="#">Twitter</a>

@@ -34,7 +34,7 @@ export default function RegisterPage() {
                 <div className="auth-header">
                     <span className="auth-icon">🚗</span>
                     <h1>Create an account</h1>
-                    <p>Join Trekunity and start planning</p>
+                    <p>Join PackAndSync and start planning</p>
                 </div>
 
                 <form onSubmit={handleSubmit} className="auth-form">
@@ -48,7 +48,7 @@ export default function RegisterPage() {
                     <div className="form-group">
                         <label className="form-label" htmlFor="email">Email</label>
                         <input id="email" name="email" type="email" className="form-input"
-                            placeholder="you@trekunity.com" value={form.email}
+                            placeholder="you@packandsync.com" value={form.email}
                             onChange={handleChange} required autoComplete="email" />
                     </div>
 

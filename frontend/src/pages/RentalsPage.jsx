@@ -76,7 +76,7 @@ export default function RentalsPage() {
             <div className="rentals-hero">
                 <div className="hero-content">
                     <h1>Self-Drive Marketplace</h1>
-                    <p>Book community-hosted cars inside Trekunity for outer-city trips and weekend escapes.</p>
+                    <p>Book community-hosted cars inside PackAndSync for outer-city trips and weekend escapes.</p>
                     <form className="rental-search" onSubmit={handleSearch}>
                         <LocationAutocomplete
                             placeholder="Search by city..."

@@ -1,4 +1,4 @@
-# 🛠️ Trekunity Setup Guide
+# 🛠️ PackAndSync Setup Guide
 
 To get the application fully functional, you need to configure several external services. Follow this guide to obtain and set up all required environment variables.
 
@@ -8,9 +8,9 @@ To get the application fully functional, you need to configure several external 
 Used for storing all application data (users, trips, expenses).
 - **Service:** [PostgreSQL Downloads](https://www.postgresql.org/download/) or [Supabase](https://supabase.com/) (Cloud).
 - **Steps:**
-    1. Install PostgreSQL and create a database named `trekunity`.
+    1. Install PostgreSQL and create a database named `packandsync`.
     2. Update `DATABASE_URL` in `backend/.env`.
-    - **Format:** `postgresql://USER:PASSWORD@localhost:5432/trekunity`
+    - **Format:** `postgresql://USER:PASSWORD@localhost:5432/packandsync`
 
 ## 2. Google OAuth & Maps
 Used for user authentication and location search.
@@ -59,7 +59,7 @@ Used for real-time ride pricing and automated connections.
 - **Service:** [Uber Developer Dashboard](https://developer.uber.com/dashboard/)
 - **Steps:**
     1. **Login:** Sign in to the [Uber Developer Portal](https://developer.uber.com/).
-    2. **Create App:** Click **Create App** and give it a name (e.g., "Trekunity").
+    2. **Create App:** Click **Create App** and give it a name (e.g., "PackAndSync").
     3. **Configure Auth:** Go to the **Settings** or **Auth** tab:
         - **Redirect URI:** Add `http://localhost:3001/api/rides/auth/uber/callback`
         - **Origin URI:** Add `http://localhost:5173` (Frontend URL)

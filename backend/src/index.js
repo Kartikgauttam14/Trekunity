@@ -100,7 +100,7 @@ app.get('/api/config', (req, res) => {
 // Root route
 app.get('/', (_req, res) => {
   res.json({
-    message: 'Welcome to Trekunity API',
+    message: 'Welcome to PackAndSync API',
     status: 'running',
     docs: '/api-docs', // placeholder if there are docs
     version: '1.0.0'
@@ -129,7 +129,7 @@ httpServer.listen(PORT, '0.0.0.0', () => {
   const lan = Object.values(os.networkInterfaces())
     .flat()
     .find((net) => net?.family === 'IPv4' && !net.internal)?.address;
-  console.log(`🚀 Trekunity API running on http://localhost:${PORT}`);
+  console.log(`🚀 PackAndSync API running on http://localhost:${PORT}`);
   if (lan) console.log(`📱 Android/other devices: http://${lan}:${PORT}/api`);
 });
 

@@ -1,6 +1,6 @@
-# Trekunity
+# PackAndSync
 
-Trekunity is a travel coordination system for groups, rides, and self-drive rentals. One backend powers three clients:
+PackAndSync is a travel coordination system for groups, rides, and self-drive rentals. One backend powers three clients:
 
 - Website: React + Vite
 - Android APK: React Native + Expo
@@ -181,7 +181,7 @@ Windows `.exe`:
 npm run build:desktop:exe
 ```
 
-Output: `desktop/release/Trekunity Setup 1.0.0.exe`
+Output: `desktop/release/PackAndSync Setup 1.0.0.exe`
 
 ## Backend API Areas
 

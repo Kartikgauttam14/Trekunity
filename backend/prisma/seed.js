@@ -4,7 +4,7 @@ import bcrypt from 'bcryptjs';
 const prisma = new PrismaClient();
 
 async function main() {
-    console.log('🌱 Seeding Trekunity database...');
+    console.log('🌱 Seeding PackAndSync database...');
 
     // Clean existing data (Optional but recommended to ensure a fresh start)
     // Be careful with this in production, but here it seems requested
@@ -33,15 +33,15 @@ async function main() {
     const admin = await prisma.user.create({
         data: {
             name: 'Kartik Gauttam',
-            email: 'kartikguatttam@trekunity.com',
+            email: 'kartikguatttam@packandsync.com',
             passwordHash: adminPassword,
             role: 'ADMIN',
-            bio: 'Chief Executive Administrator of Trekunity.',
+            bio: 'Chief Executive Administrator of PackAndSync.',
         },
     });
 
-    console.log('✅ Trekunity setup complete!');
-    console.log(`   Admin: Kartikguatttam@trekunity.com / Kartik@@Gauttam2026`);
+    console.log('✅ PackAndSync setup complete!');
+    console.log(`   Admin: Kartikguatttam@packandsync.com / Kartik@@Gauttam2026`);
 }
 
 main()

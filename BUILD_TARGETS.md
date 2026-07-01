@@ -1,4 +1,4 @@
-# Trekunity Build Targets
+# PackAndSync Build Targets
 
 This repo now has three client targets:
 
